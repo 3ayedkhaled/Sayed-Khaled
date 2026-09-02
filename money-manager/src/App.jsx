@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900" dir="rtl">
       <Header />
-      <main className="max-w-4xl mx-auto px-4 pb-20">
+      <main className="max-w-4xl mx-auto px-4 pb-20 pt-8">
         <Summary totals={totals} />
         <TransactionForm onAdd={addTransaction} />
         <TransactionList
