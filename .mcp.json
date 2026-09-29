@@ -2,7 +2,10 @@
   "mcpServers": {
     "remotion-documentation": {
       "command": "npx",
-      "args": ["@remotion/mcp@latest"]
+      "args": ["@remotion/mcp@latest"],
+      "env": {
+        "NODE_USE_ENV_PROXY": "1"
+      }
     }
   }
 }
